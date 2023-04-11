@@ -76,7 +76,11 @@ body {
 	line-height: 3rem;
 	color: #6e6e6e;
 }
-
+.ruben {color:#F1F1F1;
+	    padding-top: 20px;
+           
+ 
+}
 /**
  * links - (_document-setup.scss)
  * -------------------------------------------------------------------
@@ -1504,10 +1508,11 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
-	border-radius: 50%;
-	margin: .9rem 0 0 0;
+	height: 180px;
+	width: 100px;
+	border-radius: 10%;
+	margin: 0 0 0 0;
+	
 	float: left;
 }
 .intro-info .lead {
@@ -2595,5 +2600,18 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
+.centered {
+	font-weight: bold;
+	font-size: large;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
 
+  .top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+  }
 /*# sourceMappingURL=main.css.map */
